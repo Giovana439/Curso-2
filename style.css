@@ -63,3 +63,9 @@ body{
     border: 2px solid var(--borda);
     margin-top: 32px;
 }
+
+.parametro-titulo{
+    font-family:var(--roboto-mono) ;
+    font-size: 28px;
+}
+
