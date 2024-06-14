@@ -70,3 +70,8 @@ body{
     font-size: 28px;
 }
 
+.parametro-coluna__senha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
