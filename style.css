@@ -119,7 +119,6 @@ label{
   background-color: var(--fundo-senha); 
   height: 30px; 
   width: 100%;
-  border: 1px solid var(--borda);
 }
 
 .fraca{
