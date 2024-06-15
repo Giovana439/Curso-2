@@ -87,6 +87,7 @@ body{
     justify-content: center;
 }
 
+
 .parametro-senha__botao{
     background-color: var(--fundo-texto);
     color: var(--branco);
@@ -95,6 +96,8 @@ body{
     font-size: 24px;
     cursor: pointer;
 }
+
+
 
 .parametro-senha__texto{
     padding: 24px;
