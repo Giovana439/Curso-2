@@ -9,13 +9,15 @@ botoes[1].onclick = aumentoTamanho;
 
 function diminuiTamanho(){
     if (tamanhoSenha > 1){
-        tamanhoSenha = tamanhoSenha-1;
+        //tamanhoSenha = tamanhoSenha-1;
+        tamanhoSenha--;
     } 
     numeroSenha.textContent= tamanhoSenha;
 }
 function aumentoTamanho(){
     if(tamanhoSenha < 20){
-        tamanhoSenha = tamanhoSenha +1;
+        //tamanhoSenha = tamanhoSenha +1;
+        tamanhoSenha++;
     }
     numeroSenha.textContent = tamanhoSenha;
 }
