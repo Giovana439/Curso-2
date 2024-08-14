@@ -34,7 +34,6 @@ for (i=0; i < checkbox.length;i++){
     checkbox[i].onclick = geraSenha;
 }
 
-
 geraSenha();
 
 function geraSenha(){
@@ -63,5 +62,10 @@ function geraSenha(){
 }
 
 function classificaSenha{
+    forcaSenha.classList.add.remove('fraca', 'media','forte');
+    if (tamanhoSenha > 11){
     forcaSenha.classList.add('forte');
+    }else if (tamanhoSenha > 5 && tamanhoSenha < 11){
+        forcaSenha.classList.add('media');
+    }
 }
