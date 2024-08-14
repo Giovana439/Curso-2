@@ -65,7 +65,7 @@ function classificaSenha{
     forcaSenha.classList.add.remove('fraca', 'media','forte');
     if (tamanhoSenha > 11){
     forcaSenha.classList.add('forte');
-    }else if (tamanhoSenha > 5 && tamanhoSenha < 11){
+    }else if (tamanhoSenha > 5 && tamanhoSenha < 12){
         forcaSenha.classList.add('media');
     }
 }
